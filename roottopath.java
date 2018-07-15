@@ -1,5 +1,5 @@
 import java.util.*;
-public class Path2{
+public class Path{
     
     
     public ArrayList<ArrayList<Integer>> pathSum(TreeNode root, int sum) {
@@ -7,7 +7,7 @@ public class Path2{
         ArrayList<Integer> temp = new ArrayList<Integer>();
         if(root == null)
             return null;
-        // temp.add(root.val);
+        
         pathSum(root, sum, result, temp);
         return result;
         
@@ -27,11 +27,6 @@ public class Path2{
         temp.remove(temp.size() - 1);
         
     }
-    
-    
-    
-    
-    
     public static void main(String[] args){
     }
 }
