@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>
+HELLO WORLD</title>
+<script type="text/javascript">
+function person(n,age)
+{
+this.n= n;
+this.age=age;
+}
+
+var ab=new person("amy",25);
+var cd=new person("jackson",29);
+
+
+</script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var people=new Array("buck","sai","hena","natalie");
+document.write(people[3]+"<br/>");
+
+var bus=new Array(3);
+bus[0]="express";
+bus[1]="ordiary";
+document.write(bus[1]+"<br/>");
+
+var movies=new Array("avatar","evildead","sultan");
+var string=movies.join();
+var string=movies.pop();
+document.write(string);
+
+var bp = new Array("head","nose","eyes");
+bp.reverse();
+bp.push("ear");
+document.write(bp+"<br/>");
+
+
+var pie=prompt("enter your name:","");//prompt
+document.write("hello"+pie+"<br/>");
+
+var crap= new Array(3);//crap
+for(j=0;j<3;j++)
+{
+crap[j]= prompt("add somethimg to array","");
+}
+document.write(crap[0]+crap[1]+crap[2]);
+
+
+var fruits=new Array("mango","tomato","banana");
+fruits.sort();//sortting
+
+
+document.write(fruits+"<br/>");
+for(k=0;k<fruits.length;k++)
+{
+document.write(fruits[k]+"<br/>");//printing array elements
+}
+
+//math objects like sqrt
+
+
+
+//date time objects like hours,mins,seconds
+document.write(ab.n);
+document.write(cd.age);
+
+
+document.write("hey now brown cow");
+var name ="bublu";
+function cricket(x){
+alert("i love"+x);
+document.write(name);
+}
+cricket("sai");
+var apples=4;
+apples+= 54;
+document.write(apples);
+
+var x=20;
+var y=15;
+
+if(2==3){
+document.write("x is greater than y");
+}else{
+document.write("i love coding");
+}
+var girl="natalie";
+switch(girl){
+case "natalie":
+document.write(name +" love her");
+break;
+case "ashley":
+document.write("you hate her");
+break;
+default:
+document.write("this is default");
+}
+
+
+for(i=0;i<10;i++){
+document.write("i love natalie<br />");
+}
+
+
+var a=1;
+while(a<10){
+document.write("hello natalie<br />");
+a++;
+}
+
+
+</script>
+
+</script>
+<form>
+
+<input type="button"value="touch me" onClick=
+"alert('hey natalie  love you');alert('two times');"/>
+</form>
+
+
+<form>
+username:<input type="text"/>
+password:<input type="password"/>     
+<input type="submit"value="submit"/>
+
+</form>
+<script type="text/javascript">
+var e=document.forms[0].length;///forms 
+document.write(e);
+
+
+
+function validator(){
+
+if(document.buckysform.box.checked)
+alert("yes checked");
+else
+alert("not checked");
+}
+///////////////////////////form validation
+</script>
+
+<form name="buckysform">
+<input type="checkbox"name="box"/>
+<input type="button" value="press me" onClick="validator()"/>
+
+
+
+
+
+
+
+
+<a href="http://amazon.com" onMouseOver="alert('sai u r coding a lot');">
+really!</a>
+
+<body onUnLoad="alert('unloaded');">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
